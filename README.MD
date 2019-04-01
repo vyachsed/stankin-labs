@@ -7,7 +7,7 @@
    - `git config --global user.name "[Firstname Lastname]"`
    - `git config --global user.email "[email]"`
 3. Клонирование данного репозитория путём выполнение команды `git clone [url]` в консоли
-4. Перейти в ветку `lab1` с помощью команды `git checkout lab1`, после чего произвести слияние с веткой `dev` командой `git merge dev`
+4. Перейти в ветку `lab1` с помощью команды `git checkout lab1` (чтобы удалённая ветка `dev` стала доступной локально, предварительно выполните команду `git checkout dev`), после чего произвести слияние с веткой `dev` командой `git merge dev`
 5. Установка node.js с сайта https://nodejs.org/en/
 6. Установка пакетов с помощью NPM:
    - Открыть консоль и выполнить команду `npm install` в директориях **client** и в **server**
