@@ -9,7 +9,7 @@
 
 1. Установка MongoDB с сайта https://www.mongodb.com/download-center/community
 2. Слияние `lab2` с `dev`
-3. Создание базы данных с сущностью `User`, описанной в файле `server/models/User.js`
+3. Создание базы данных с коллекцией `users`, модель описана в файле `server/models/User.js`
 4. В папке **server** создать файла с названием `.env` со следующим содержимым:
    ```dotenv
    DB_HOST="<Хост сервера mongodb>"
